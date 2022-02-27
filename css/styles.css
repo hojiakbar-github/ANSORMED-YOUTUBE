@@ -1,4 +1,3 @@
-/* GLOBAL */
 * {
   box-sizing: border-box;
 }
@@ -6,13 +5,17 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: 16px;
+  line-height: 1.5;
+  color: #444;
 }
 
 
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1160px;
+  min-width: 1160px;
   padding-left: 30px;
   padding-right: 30px;
   margin-left: auto;
